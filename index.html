@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DriveThrill</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <script src="script.js"></script> -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="keyHandlers.js"></script>
+    <script src="buttons.js"></script>
+    <script src="mathFunctions.js"></script>
+    <script src="streetViewFunctions.js"></script>
+    <script src="mainloop.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"></script>
+    <script src="config.js"></script>    
+  </head>
+  <body>
+    
+    <main>
+      
+      <!-- <div style="text-align: center;">
+        <h1>DriveThrill</h1>
+      </div> -->
+      <div id="streetView"></div>
+
+      <div id="fullscreen">
+        <button id="fullscreenButton">點此開始</button>
+      </div>
+
+      <div id="mapPanel">
+          <div id="map"></div>
+      </div>
+
+
+      <div id="control-wrapper">
+        <div id="controls">
+          <button id="up"></button>
+          <button id="left"></button>
+          <button id="down"></button>
+          <button id="right"></button>
+        </div>
+      </div>
+      
+    </main>
+    
+    <footer>
+      <p>API usage <a href="https://www.w3.org/TR/gamepad/">Gamepad API</a>, and Google's <a href="https://developers.google.com/maps/">Maps</a> and <a href="https://developers.google.com/maps/documentation/streetview/">Street View</a> APIs.</p>
+
+    </footer>
+    
+  </body>
+</html>
+

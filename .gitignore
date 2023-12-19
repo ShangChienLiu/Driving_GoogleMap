@@ -1,0 +1,8 @@
+.*.swp
+.*.swo
+*~
+#disalbe node_modules
+node_modules
+
+#disable yml file
+*.yml
